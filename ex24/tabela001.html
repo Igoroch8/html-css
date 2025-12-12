@@ -4,26 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Primeira Tabela</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>Minha Primeira Tabela</h1>
     <table>
-        <th>
+        <tr>
             <td>Aluno 1</td>
             <td>Aluno 2</td>
             <td>Aluno 3</td>
-        </th>
-            <tr>
+        </tr>
+        <tr>
                 <td>Igor</td>
                 <td>Arthur</td>
                 <td>Monike</td>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
                 <td>8</td>
                 <td>5</td>
                 <td>10</td>
-            </tr>
+        </tr>
     </table>
 </body>
 </html>
